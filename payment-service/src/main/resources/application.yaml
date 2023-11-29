@@ -1,0 +1,13 @@
+server:
+  port: 9191
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: PAYMENT-SERVICE
+
+#Logger file entries
+logging:
+  file:
+    name: C:/Users/tcsspr/mslogs/microservice.log
